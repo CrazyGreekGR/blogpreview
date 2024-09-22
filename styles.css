@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+#main{
+    background-color: white;
+    max-width: 384px;
+    max-height: 522px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#course{
+    font-family: Figtree;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+
+#course:hover{
+    color: hsl(47, 88%, 63%);
+    transition: 250ms;
+}
+
+h1{
+    font-family: Figtree;
+    font-weight: 800;
+}
+
+#content{
+    font-family: Figtree;
+    color: hsl(0, 0%, 42%);
+}
+
+#authorname{
+    font-family: Figtree;
+    font-weight: 800;
+}
+
+#thumb{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tag{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    margin-left: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+#authorname{
+    display: inline-block;
+    vertical-align: auto;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#author{
+    max-width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
